@@ -1,0 +1,21 @@
+--import export
+    --if we write default in export we dont need to apply {} braces wihile imprting
+    -- if we write export before the componet or variable we need to apply {} while importing
+H.W --
+    -- Can we use both default exports and export before var
+
+--What is Hooks?
+    -- Normal Javascript function given by (utility functions)
+    --useState() - superpowerful to generate state variable in js
+    --useEffects()
+-- Whenver our state variable changes react rerender the components
+-- react sync data layer with ui layer anytime datalayer update ui layer also also rerender
+--react is fast because it do DOM manupulation fast why because it has virtual dom
+
+(IMP)
+--React Uses Reconciliation Algorithm (ReactFiber)
+    --res-container have 15 restaurant now UI filter 3 out of 15 then react create virtualDom(is a represantation of Actual DOM)
+    VIRTUAL DOM is nothing just a javascript Obj(just like when we do react.createElement)
+    Diffing  Algorithm is find the differnt  b/w old virtual and new virtual dom and line 15 and 3 cards and then update actual dom
+    react not touch html it compare obj and then update to actual dom this is how it is fast
+

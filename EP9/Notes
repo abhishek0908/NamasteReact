@@ -1,0 +1,14 @@
+--Optimizing the App 
+--Custom Hook
+    -- We create custom hook to provide abstraction and try to follow SRP
+
+-- same concept different words
+-- Chunking(Split out component to different js files at the time of productiion depend on the feature)
+-- Coding Sppliting
+-- Dynamic Bundling
+-- Lazy Loading( use lazy and suspence given by react)
+-- On demand loading
+-- dynamic import
+
+
+--Lazy loading and suspense use see app.js file

@@ -1,0 +1,49 @@
+-- Package.json is the configuaration for npm.
+
+-- Two Dependencies an App can have 
+  -- dev dependecies(requirement in development phase) -D
+  -- normal dependencies(used in production also)
+
+-- ^ meaning of this carrot we can also put ~ 
+when we use that symbol when a new version of parcel come it will automaticlly updates with version
+
+
+-- diffence b/w package.json and package.lock.js 
+   -- package json : a configure it take care of track of version of dependencies it have carrot
+
+    -- package-lock json  : keeps the track of exact version is used
+
+--integrity have hash of SHA512  working of local vs working of production
+
+--tansitive dependencies : dependencies inside dependencies
+
+--npx -> executing is out package
+
+-- parcel what it do? :
+  how it load it when we save file
+   -- dev build
+   -- local server
+   -- hot module replacement(HMR)
+   -- they do it using "file watching algorithm"
+   -- faster build using caching it will load faster
+   -- image optimization 
+   -- minification of file also
+   -- compress
+   -- react is not only things make our app faster
+   --consitent hashing 
+   --code splitting
+   -- diffrential bundling -> to support of older browser
+   -- https is also supported
+   -- Tree Shaking -> it will remove unused code 
+
+
+--command : for generating dist file
+npx parcel build index.html 
+-- command : for run out react app
+npx parcel index.html
+
+
+--visit website :  https://browserslist.dev/
+
+
+

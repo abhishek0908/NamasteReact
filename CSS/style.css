@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.text h1{
+    background-color: #ce4d08;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+    margin: 3rem;
+    border : solid 2px white
+}
+html{
+    background: url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+body{
+    
+    background-color: #414141;
+}

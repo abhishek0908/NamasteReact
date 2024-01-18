@@ -1,0 +1,16 @@
+/* .display-grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.grid-item{
+    background-color: red;
+    margin: 1rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+} */
+
+.text-center{
+    /* display: grid; */
+    text-align: center;
+}

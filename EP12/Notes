@@ -1,0 +1,21 @@
+--Higher Order function is a component which take and function and return a function
+    --HOF -> adding some feature or enhance it 
+
+--React app has two layer one is data layer and UI layer and UI layer is powerd by data layer
+
+-- create Accordion
+
+-- create Accordion -> control and uncontrol one open other must be collapse   
+    restaurant category control itself so for achive this we will use showitem to parent means "RestaurantMenu"
+    -- control/uncontrol
+    --lifting the state up(IMP Concept)
+
+--props Drilling
+    --data flow in one direction in react parent->child and so on
+    --so if we need to pass data from root to leaf we need to go throgh every one 
+    -- solution of this is react context 
+    -- we use createContext to create and useContext hook to access
+    --or we can also access  in classes it by using component <Contextname.Consume> {{data}}</Contextname.Consume>
+    --<UserContext.Provider> for modification
+    -- I can also use provider for specific component like header so only header name will change and all the places default value will be present
+    --we can also do nested context for change specific context

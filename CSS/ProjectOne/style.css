@@ -1,0 +1,23 @@
+
+header{
+    margin: 2rem 2rem;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-item >img
+{
+    width: 10vw;
+    height: 10vh;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item li{
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.5rem;
+}
+

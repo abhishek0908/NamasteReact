@@ -1,0 +1,10 @@
+--Config Driven UI(IMP)
+    --offer are differnet in different location crousel data come from backend 
+    -- 
+--CDN
+    --Companies put all there img on cdn line cloudnary.com or lot more
+
+-- Any time you looping something on list you must provide "key" it is a reserved keyword
+    --if we not provide unique id then it will render all cart 
+    --do not use index as an id
+    --not using keys (not acceptable) <<<< index as key <<<<<<<<<<< unique id (best practice)

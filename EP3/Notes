@@ -1,0 +1,21 @@
+-- When you are new at a company and dont know how to run a project?
+  --go the thre json file and see script 
+  -- command npm run start or npm start(it will only run for start)
+  -- commmand npm run build
+
+
+--JSX is different from React
+    --JSX is a syntax like javascript
+    --JSX code is transpiled by parcel before it reaches to the browser because can't understand jsx parcel give it to the bable
+    -- jsx -> react.createelement - >html element(render)
+    -- if you are using jsx use camalcase 
+     --JSX also check when you insert some data using {} it will sanitize
+
+--Bable : Babel is a JavaScript compiler.
+
+-- component in react
+    --class based component(Old)
+    --functional based component(New)
+    --comonent compositon -> component inside component
+
+-- {} in single curly braces we can write any expression in js

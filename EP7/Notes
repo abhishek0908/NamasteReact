@@ -1,0 +1,24 @@
+-- Use effect will call everytime when a component is called when a dependecy array
+    -- if dependecy array is empty then useeffect is called on initial render and just once
+
+-- use state we can't set outside the body -> bad practices inside function or if codition or loop
+
+--Routing in React
+    -- use will use npm react router library 
+
+-- we can use inbuild hook for wrong url "useRoute Error"
+
+--Children Route
+{
+    so we dont need to render header again and again for diffent pages
+
+}
+
+-- dont use anchor tag use Link to link the component whole page will not render again and again
+    -- thats react is called as single page application
+
+-- Two types of rounting we can do in our react application
+    --Client side routing(it not making server side routing )
+    --Server side routing(make a network call get the page from server)
+
+--Dynamic Routing

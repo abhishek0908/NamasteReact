@@ -1,0 +1,41 @@
+--Class Based Component
+    -- we takes props in the constructor 
+    -- super(props) is compulsory why(H.W)
+    --  we use this keyword in component to display 
+    --  constructor is best place to create state variable
+    --  in this we dont create multiple variable and just create one big state varible and put all variable in that one
+    -- never update state varibale directly it create inconsistency
+-- Behind the scene react will create a one big object and put all state variable int that one
+
+-- What is react component life cycle?(Imp Question)
+    -- ComponentDidMount? this functiion will be called in this order?
+    --contructor-> render method-> componentmount
+    -- it is just like useEffect which is in function based component
+    -- if we have multiple child then it will first render for both and then mount(Good Concept)
+    --refer diagram : https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+
+--ComponentDidUPDATE() call after update the data at first render it will call didmount and for another it will call update one
+
+-- MOUNTING
+    --Constructor (dummy)
+    --Render (dummy) 
+    --<HTML Dummy >
+    -- Component Did Mount
+    --<API Call>
+    --<this.setState>
+    --State variable is updated
+    
+    ---UPDATE
+    --render (APi data)
+    --<HTML (new API data>)
+    --componentDid Update
+
+
+--Componentwillunmount() - > when we go to another page we unmount prev page
+    -- this things we do prev but nowdays we simplified it a lot
+    -- to understand why we use componentwillunmount to watch last 45 min of EP8 Hint(Because it is single page application) 
+    -- when we create a mess we have to clear it also
+
+-- we do unmount in function based component also using return within the useeffect callback functiion
+--why we cant use async in useeffect(H.W)

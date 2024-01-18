@@ -1,0 +1,26 @@
+--Monolotic vs microservices
+--how to render page
+    --Load -> API -> render
+    --Load ->render ->API->DATA(this is better)
+
+
+--Config Drivern API
+    --Based on different location different data
+--useEffect(()=>{},[])
+    --it takes two argument 1st callback function and another is dependencies added
+    --callback function will be called after component will render
+    --
+
+-- Optional Chaining
+    json?.data?.
+--Fake Cards
+
+--Conditional Rendering
+    -- render according to condition
+
+-- Everytime useState() call it render whole component again and change particular value
+    --we can't do it with normal variable because it cannot have track
+
+--virtual dom is just a obj of component which compare old with new obj
+
+--Corsproxy.io
